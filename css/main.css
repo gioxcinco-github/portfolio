@@ -23,42 +23,42 @@ div {
 
 @font-face {
   font-family: HelveticaNeueThin;
-  src: url("/public/fonts/HelveticaNeueThin.otf");
+  src: url("./public/fonts/HelveticaNeueThin.otf");
   font-style: normal;
   font-weight: 100;
   font-display: swap;
 }
 @font-face {
   font-family: HelveticaNeueUltraLight;
-  src: url("/public/fonts/HelveticaNeueUltraLight.otf");
+  src: url("./public/fonts/HelveticaNeueUltraLight.otf");
   font-style: normal;
   font-weight: 200;
   font-display: swap;
 }
 @font-face {
   font-family: HelveticaNeueLight;
-  src: url("/public/fonts/HelveticaNeueLight.otf");
+  src: url("./public/fonts/HelveticaNeueLight.otf");
   font-style: normal;
   font-weight: 300;
   font-display: swap;
 }
 @font-face {
   font-family: HelveticaNeueRoman;
-  src: url("/public/fonts/HelveticaNeueRoman.otf");
+  src: url("./public/fonts/HelveticaNeueRoman.otf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: HelveticaNeueMedium;
-  src: url("/public/fonts/HelveticaNeueMedium.otf");
+  src: url("./public/fonts/HelveticaNeueMedium.otf");
   font-style: normal;
   font-weight: 500;
   font-display: swap;
 }
 @font-face {
   font-family: HelveticaNeueBold;
-  src: url("/public/fonts/HelveticaNeueBold.otf");
+  src: url("./public/fonts/HelveticaNeueBold.otf");
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -956,13 +956,13 @@ main {
 }
 .top__contact-icon-item.gmail::before {
   content: "";
-  -webkit-mask: url("/public/img/icons/gmail.svg") no-repeat center/contain;
-          mask: url("/public/img/icons/gmail.svg") no-repeat center/contain;
+  -webkit-mask: url("./public/img/icons/gmail.svg") no-repeat center/contain;
+          mask: url("./public/img/icons/gmail.svg") no-repeat center/contain;
 }
 .top__contact-icon-item.linkedin::before {
   content: "";
-  -webkit-mask: url("/public/img/icons/linkedin.svg") no-repeat center/contain;
-          mask: url("/public/img/icons/linkedin.svg") no-repeat center/contain;
+  -webkit-mask: url("./public/img/icons/linkedin.svg") no-repeat center/contain;
+          mask: url("./public/img/icons/linkedin.svg") no-repeat center/contain;
   width: 25px;
   height: 25px;
   margin-left: -3px;
@@ -975,8 +975,8 @@ main {
 }
 .top__contact-icon-item.ig::before {
   content: "";
-  -webkit-mask: url("/public/img/icons/ig.svg") no-repeat center/contain;
-          mask: url("/public/img/icons/ig.svg") no-repeat center/contain;
+  -webkit-mask: url("./public/img/icons/ig.svg") no-repeat center/contain;
+          mask: url("./public/img/icons/ig.svg") no-repeat center/contain;
 }
 .top__contact-icon-item:hover {
   color: #8758ff;
