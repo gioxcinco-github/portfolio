@@ -1020,6 +1020,9 @@ main {
 .light-mode .top__link::before {
   background: #181818;
 }
+.light-mode .top__link.is-active::before {
+  background: #5cb8e4;
+}
 .light-mode .mode__row span {
   text-shadow: 0 3px 5px rgba(135, 88, 255, 0.4);
 }
