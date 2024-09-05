@@ -203,8 +203,8 @@ main {
           transform: translateY(200%);
   max-height: 0;
   overflow: hidden;
-  -webkit-transition: 1.5s linear;
-  transition: 1.5s linear;
+  -webkit-transition: 0.8s linear;
+  transition: 0.8s linear;
 }
 .mode__container {
   padding: 0 4%;
